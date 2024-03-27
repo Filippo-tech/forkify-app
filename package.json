@@ -1,0 +1,26 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "Recipe application",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Filippo Corio",
+  "license": "ISC",
+  "dependencies": {
+    "core-js": "^3.35.1",
+    "parcel": "^2.11.0",
+    "regenerator-runtime": "^0.14.1",
+    "sass": "^1.70.0"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "buffer": "^6.0.3",
+    "events": "^3.3.0",
+    "process": "^0.11.10",
+    "stream-browserify": "^3.0.0",
+    "util": "^0.12.5"
+  }
+}
